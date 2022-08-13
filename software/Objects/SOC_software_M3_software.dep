@@ -1,0 +1,84 @@
+Dependencies for Project 'SOC_software', Target 'M3_software': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\src\main.c)(0x6289AC49)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\src-IH:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-IH:\software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (H:\software\MDK\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (src\delay.h)(0x5ED9FDF3)
+I (src\CortexM3.h)(0x60F791E2)
+I (H:\software\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (src\core_cm3_int.h)(0x60F78E60)
+I (src\core_cm3.h)(0x5ED22910)
+I (src\core_cmInstr.h)(0x5E54FA30)
+I (src\core_cmFunc.h)(0x5E54FA30)
+I (src\GPIO.h)(0x60F78E6E)
+I (src\SmartCamera.h)(0x60F80D24)
+I (src\lcd.h)(0x60F78FCD)
+I (src\misc.h)(0x60F6AB4B)
+F (.\src\CortexM3_driver.c)(0x60F78CE0)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\src-IH:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-IH:\software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\cortexm3_driver.o --omf_browse .\objects\cortexm3_driver.crf --depend .\objects\cortexm3_driver.d)
+I (src\CortexM3.h)(0x60F791E2)
+I (H:\software\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (src\core_cm3_int.h)(0x60F78E60)
+I (src\core_cm3.h)(0x5ED22910)
+I (src\core_cmInstr.h)(0x5E54FA30)
+I (src\core_cmFunc.h)(0x5E54FA30)
+I (H:\software\MDK\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
+F (.\src\handler.c)(0x60F7BCDD)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\src-IH:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-IH:\software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\handler.o --omf_browse .\objects\handler.crf --depend .\objects\handler.d)
+I (H:\software\MDK\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (src\CortexM3.h)(0x60F791E2)
+I (H:\software\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (src\core_cm3_int.h)(0x60F78E60)
+I (src\core_cm3.h)(0x5ED22910)
+I (src\core_cmInstr.h)(0x5E54FA30)
+I (src\core_cmFunc.h)(0x5E54FA30)
+I (src\delay.h)(0x5ED9FDF3)
+I (src\GPIO.h)(0x60F78E6E)
+I (src\SmartCamera.h)(0x60F80D24)
+F (.\src\Retarget.c)(0x60F78CD7)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\src-IH:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-IH:\software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (H:\software\MDK\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (src\CortexM3.h)(0x60F791E2)
+I (H:\software\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (src\core_cm3_int.h)(0x60F78E60)
+I (src\core_cm3.h)(0x5ED22910)
+I (src\core_cmInstr.h)(0x5E54FA30)
+I (src\core_cmFunc.h)(0x5E54FA30)
+F (.\src\system.c)(0x5ED4EC09)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\src-IH:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-IH:\software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
+I (src\CortexM3.h)(0x60F791E2)
+I (H:\software\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (src\core_cm3_int.h)(0x60F78E60)
+I (src\core_cm3.h)(0x5ED22910)
+I (src\core_cmInstr.h)(0x5E54FA30)
+I (src\core_cmFunc.h)(0x5E54FA30)
+F (.\src\startup_CM3DS.s)(0x60F6A7B9)(--cpu Cortex-M3 --li -g --apcs=interwork -IH:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-IH:\software\MDK\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 533" --pd "ARMCM3 SETA 1"--list .\listings\startup_cm3ds.lst --xref -o .\objects\startup_cm3ds.o --depend .\objects\startup_cm3ds.d)
+F (.\src\GPIO.c)(0x60F7B14D)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\src-IH:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-IH:\software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (src\CortexM3.h)(0x60F791E2)
+I (H:\software\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (src\core_cm3_int.h)(0x60F78E60)
+I (src\core_cm3.h)(0x5ED22910)
+I (src\core_cmInstr.h)(0x5E54FA30)
+I (src\core_cmFunc.h)(0x5E54FA30)
+I (src\GPIO.h)(0x60F78E6E)
+I (src\misc.h)(0x60F6AB4B)
+F (.\src\delay.c)(0x5ED9FE00)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\src-IH:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-IH:\software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (src\delay.h)(0x5ED9FDF3)
+F (.\src\SmartCamera.c)(0x60F80E96)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\src-IH:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-IH:\software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\smartcamera.o --omf_browse .\objects\smartcamera.crf --depend .\objects\smartcamera.d)
+I (src\CortexM3.h)(0x60F791E2)
+I (H:\software\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (src\core_cm3_int.h)(0x60F78E60)
+I (src\core_cm3.h)(0x5ED22910)
+I (src\core_cmInstr.h)(0x5E54FA30)
+I (src\core_cmFunc.h)(0x5E54FA30)
+I (src\SmartCamera.h)(0x60F80D24)
+I (src\GPIO.h)(0x60F78E6E)
+F (.\src\lcd.c)(0x6289AC18)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\src-IH:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-IH:\software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (H:\software\MDK\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
+I (src\lcd.h)(0x60F78FCD)
+I (src\oledfont.h)(0x60F778E2)
+I (src\bmp.h)(0x6289ABF8)
+I (src\delay.h)(0x5ED9FDF3)
+F (.\src\misc.c)(0x60F6B0C7)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I .\src-IH:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include-IH:\software\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DARMCM3-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (src\misc.h)(0x60F6AB4B)
+I (H:\software\MDK\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (src\CortexM3.h)(0x60F791E2)
+I (src\core_cm3_int.h)(0x60F78E60)
+I (src\core_cm3.h)(0x5ED22910)
+I (src\core_cmInstr.h)(0x5E54FA30)
+I (src\core_cmFunc.h)(0x5E54FA30)

@@ -1,0 +1,9 @@
+.\objects\misc.o: src\misc.c
+.\objects\misc.o: src\misc.h
+.\objects\misc.o: H:\software\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\misc.o: src\CortexM3.h
+.\objects\misc.o: src\core_cm3_int.h
+.\objects\misc.o: src\core_cm3.h
+.\objects\misc.o: src\core_cmInstr.h
+.\objects\misc.o: src\core_cmFunc.h
+.\objects\misc.o: src\core_cm3.h

@@ -1,0 +1,22 @@
+
+
+F:/08-design/FPGA/Altera/EP4CE55/SOC/M3_SOC/bishe/RTL/db/a_gray2bin_dib.tdf
+
+May 22 11AM:47:07>: MegaWizard Plug-In Manager does not recognize F:/08-design/FPGA/Altera/EP4CE55/SOC/M3_SOC/bishe/RTL/db/a_gray2bin_dib.tdf as a wizard-generated
+custom megafunction variation.
+
+Do you want to use a wizard to overwrite it?
+
+F:/08-design/FPGA/Altera/EP4CE55/SOC/M3_SOC/bishe/RTL/db/a_gray2bin_dib.tdf
+
+May 22 11AM:47:11>: MegaWizard Plug-In Manager does not recognize F:/08-design/FPGA/Altera/EP4CE55/SOC/M3_SOC/bishe/RTL/db/a_gray2bin_dib.tdf as a wizard-generated
+custom megafunction variation.
+
+Do you want to use a wizard to overwrite it?
+
+F:/08-design/FPGA/Altera/EP4CE55/SOC/M3_SOC/bishe/RTL/db/a_gray2bin_dib.tdf
+
+May 22 11AM:47:15>: MegaWizard Plug-In Manager does not recognize F:/08-design/FPGA/Altera/EP4CE55/SOC/M3_SOC/bishe/RTL/db/a_gray2bin_dib.tdf as a wizard-generated
+custom megafunction variation.
+
+Do you want to use a wizard to overwrite it?

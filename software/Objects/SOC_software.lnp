@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\cortexm3_driver.o"
+".\objects\handler.o"
+".\objects\retarget.o"
+".\objects\system.o"
+".\objects\startup_cm3ds.o"
+".\objects\gpio.o"
+".\objects\delay.o"
+".\objects\smartcamera.o"
+".\objects\lcd.o"
+".\objects\misc.o"
+--strict --scatter ".\Objects\SOC_software.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info veneers
+--list ".\Listings\SOC_software.map" -o .\Objects\SOC_software.axf

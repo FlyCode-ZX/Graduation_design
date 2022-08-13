@@ -1,0 +1,132 @@
+
+State Machine - |CortexM3|state
+Name state.IDLE state.WAIT state.SEND 
+state.IDLE 0 0 0 
+state.SEND 1 0 1 
+state.WAIT 1 1 0 
+
+State Machine - |CortexM3|uart_tx:uart_tx_inst|state
+Name state.S_SEND_BYTE state.S_START state.S_IDLE state.S_STOP 
+state.S_IDLE 0 0 0 0 
+state.S_START 0 1 1 0 
+state.S_SEND_BYTE 1 0 1 0 
+state.S_STOP 0 0 1 1 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|tx_cnt
+Name tx_cnt.00000001 
+tx_cnt.00000000 0 
+tx_cnt.00000001 1 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|TX_source
+Name TX_source.SMC 
+TX_source.IDLE 0 
+TX_source.SMC 1 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|CLC_state
+Name CLC_state.CLC_IDLE CLC_state.CLC_END CLC_state.CLC_RUN 
+CLC_state.CLC_IDLE 0 0 0 
+CLC_state.CLC_RUN 1 0 1 
+CLC_state.CLC_END 1 1 0 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|uart_tx:uart_tx_inst|state
+Name state.S_SEND_BYTE state.S_START state.S_IDLE state.S_STOP 
+state.S_IDLE 0 0 0 0 
+state.S_START 0 1 1 0 
+state.S_SEND_BYTE 1 0 1 0 
+state.S_STOP 0 0 1 1 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|uart_rx:uart_rx_inst|state
+Name state.S_DATA state.S_STOP state.S_REC_BYTE state.S_START state.S_IDLE 
+state.S_IDLE 0 0 0 0 0 
+state.S_START 0 0 0 1 1 
+state.S_REC_BYTE 0 0 1 0 1 
+state.S_STOP 0 1 0 0 1 
+state.S_DATA 1 0 0 0 1 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|CH9350:CH9350_inst|uart_rx:uart_rx_inst|state
+Name state.S_DATA state.S_STOP state.S_REC_BYTE state.S_START state.S_IDLE 
+state.S_IDLE 0 0 0 0 0 
+state.S_START 0 0 0 1 1 
+state.S_REC_BYTE 0 0 1 0 1 
+state.S_STOP 0 1 0 0 1 
+state.S_DATA 1 0 0 0 1 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_mcu_proc:u_jpeg_mcu_proc|state_q
+Name state_q.STATE_EOF state_q.STATE_EOB state_q.STATE_OUTPUT state_q.STATE_HUFF_LOOKUP state_q.STATE_FETCH_WORD state_q.STATE_IDLE 
+state_q.STATE_IDLE 0 0 0 0 0 0 
+state_q.STATE_FETCH_WORD 0 0 0 0 1 1 
+state_q.STATE_HUFF_LOOKUP 0 0 0 1 0 1 
+state_q.STATE_OUTPUT 0 0 1 0 0 1 
+state_q.STATE_EOB 0 1 0 0 0 1 
+state_q.STATE_EOF 1 0 0 0 0 1 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_idct:u_jpeg_idct|jpeg_idct_transpose:u_transpose|state_q
+Name state_q.STATE_IDLE state_q.STATE_ACTIVE state_q.STATE_SETUP 
+state_q.STATE_IDLE 0 0 0 
+state_q.STATE_SETUP 1 0 1 
+state_q.STATE_ACTIVE 1 1 0 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_idct:u_jpeg_idct|jpeg_idct_ram:u_input|state_q
+Name state_q.STATE_IDLE state_q.STATE_ACTIVE state_q.STATE_SETUP 
+state_q.STATE_IDLE 0 0 0 
+state_q.STATE_SETUP 1 0 1 
+state_q.STATE_ACTIVE 1 1 0 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_input:u_jpeg_input|state_q
+Name state_q.STATE_SOF_DATA state_q.STATE_SOF_LENL state_q.STATE_SOF_LENH state_q.STATE_IMG_DATA state_q.STATE_IMG_SOS state_q.STATE_IMG_LENL state_q.STATE_IMG_LENH state_q.STATE_DHT_DATA state_q.STATE_DHT_LENL state_q.STATE_DHT_LENH state_q.STATE_DQT_DATA state_q.STATE_DQT_LENL state_q.STATE_DQT_LENH state_q.STATE_UXP_DATA state_q.STATE_UXP_LENL state_q.STATE_UXP_LENH state_q.STATE_ACTIVE state_q.STATE_IDLE 
+state_q.STATE_IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state_q.STATE_ACTIVE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state_q.STATE_UXP_LENH 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state_q.STATE_UXP_LENL 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state_q.STATE_UXP_DATA 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state_q.STATE_DQT_LENH 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state_q.STATE_DQT_LENL 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state_q.STATE_DQT_DATA 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state_q.STATE_DHT_LENH 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state_q.STATE_DHT_LENL 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state_q.STATE_DHT_DATA 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state_q.STATE_IMG_LENH 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state_q.STATE_IMG_LENL 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state_q.STATE_IMG_SOS 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_q.STATE_IMG_DATA 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_q.STATE_SOF_LENH 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_q.STATE_SOF_LENL 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_q.STATE_SOF_DATA 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|TCP:TCP_inst|TCP_state_next
+Name TCP_state_next.Send_FIN_ACK TCP_state_next.Send_FIN_PSH_ACK TCP_state_next.Send_PSH TCP_state_next.Send_ACK TCP_state_next.idle TCP_state_next.Send_PSH_ACK 
+TCP_state_next.idle 0 0 0 0 0 0 
+TCP_state_next.Send_ACK 0 0 0 1 1 0 
+TCP_state_next.Send_PSH 0 0 1 0 1 0 
+TCP_state_next.Send_PSH_ACK 0 0 0 0 1 1 
+TCP_state_next.Send_FIN_PSH_ACK 0 1 0 0 1 0 
+TCP_state_next.Send_FIN_ACK 1 0 0 0 1 0 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|rx_state
+Name rx_state.rx_data rx_state.rx_TCP_layer rx_state.rx_IP_layer rx_state.rx_IP_Protocol rx_state.rx_mac rx_state.spd_d5 rx_state.six_55 rx_state.idle rx_state.rx_finish 
+rx_state.idle 0 0 0 0 0 0 0 0 0 
+rx_state.six_55 0 0 0 0 0 0 1 1 0 
+rx_state.spd_d5 0 0 0 0 0 1 0 1 0 
+rx_state.rx_mac 0 0 0 0 1 0 0 1 0 
+rx_state.rx_IP_Protocol 0 0 0 1 0 0 0 1 0 
+rx_state.rx_IP_layer 0 0 1 0 0 0 0 1 0 
+rx_state.rx_TCP_layer 0 1 0 0 0 0 0 1 0 
+rx_state.rx_data 1 0 0 0 0 0 0 1 0 
+rx_state.rx_finish 0 0 0 0 0 0 0 1 1 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|TCP:TCP_inst|ipsend:ipsend_inst|tx_state
+Name tx_state.send_none tx_state.senddata tx_state.sendheader tx_state.sendmac tx_state.send55 tx_state.make tx_state.idle tx_state.start tx_state.sendcrc 
+tx_state.start 0 0 0 0 0 0 0 0 0 
+tx_state.idle 0 0 0 0 0 0 1 1 0 
+tx_state.make 0 0 0 0 0 1 0 1 0 
+tx_state.send55 0 0 0 0 1 0 0 1 0 
+tx_state.sendmac 0 0 0 1 0 0 0 1 0 
+tx_state.sendheader 0 0 1 0 0 0 0 1 0 
+tx_state.senddata 0 1 0 0 0 0 0 1 0 
+tx_state.send_none 1 0 0 0 0 0 0 1 0 
+tx_state.sendcrc 0 0 0 0 0 0 0 1 1 
+
+State Machine - |CortexM3|SmartCamera:SmartCamera_inst|SMC:SMC_inst|state
+Name state.001 
+state.000 0 
+state.001 1 

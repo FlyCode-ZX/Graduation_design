@@ -1,0 +1,917 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK50m'
+Slack : -40.473
+TNS   : -41334.288
+
+Type  : Slow 1200mV 85C Model Setup 'e_txc'
+Slack : -28.409
+TNS   : -1982.094
+
+Type  : Slow 1200mV 85C Model Setup 'e_rxc'
+Slack : -7.224
+TNS   : -3685.495
+
+Type  : Slow 1200mV 85C Model Setup 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -6.235
+TNS   : -16106.254
+
+Type  : Slow 1200mV 85C Model Setup 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -5.714
+TNS   : -17.815
+
+Type  : Slow 1200mV 85C Model Setup 'SWCLK'
+Slack : -5.404
+TNS   : -731.482
+
+Type  : Slow 1200mV 85C Model Setup 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -4.847
+TNS   : -4.847
+
+Type  : Slow 1200mV 85C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|Send_Task'
+Slack : -4.706
+TNS   : -165.603
+
+Type  : Slow 1200mV 85C Model Setup 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : -4.649
+TNS   : -31.015
+
+Type  : Slow 1200mV 85C Model Setup 'tx_cnt[0]'
+Slack : -3.943
+TNS   : -25.739
+
+Type  : Slow 1200mV 85C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : -3.596
+TNS   : -82.803
+
+Type  : Slow 1200mV 85C Model Setup 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : -2.929
+TNS   : -46.864
+
+Type  : Slow 1200mV 85C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : -2.548
+TNS   : -15.288
+
+Type  : Slow 1200mV 85C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : -2.317
+TNS   : -32.250
+
+Type  : Slow 1200mV 85C Model Setup 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : -1.740
+TNS   : -13.920
+
+Type  : Slow 1200mV 85C Model Setup 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : -1.332
+TNS   : -8.161
+
+Type  : Slow 1200mV 85C Model Hold 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.858
+TNS   : -0.858
+
+Type  : Slow 1200mV 85C Model Hold 'CLK50m'
+Slack : -0.610
+TNS   : -1.378
+
+Type  : Slow 1200mV 85C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|Send_Task'
+Slack : -0.529
+TNS   : -10.994
+
+Type  : Slow 1200mV 85C Model Hold 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : 0.075
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SWCLK'
+Slack : 0.225
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'e_rxc'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'e_txc'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : 0.459
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : 0.491
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : 0.505
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : 0.671
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : 0.757
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tx_cnt[0]'
+Slack : 0.779
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : 1.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -8.079
+TNS   : -2231.574
+
+Type  : Slow 1200mV 85C Model Recovery 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -7.260
+TNS   : -2734.735
+
+Type  : Slow 1200mV 85C Model Recovery 'e_rxc'
+Slack : -5.533
+TNS   : -994.722
+
+Type  : Slow 1200mV 85C Model Recovery 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : -4.787
+TNS   : -76.592
+
+Type  : Slow 1200mV 85C Model Recovery 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : -4.621
+TNS   : -30.127
+
+Type  : Slow 1200mV 85C Model Recovery 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : -3.921
+TNS   : -73.150
+
+Type  : Slow 1200mV 85C Model Recovery 'SWCLK'
+Slack : -3.548
+TNS   : -483.899
+
+Type  : Slow 1200mV 85C Model Recovery 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.009
+TNS   : -139.374
+
+Type  : Slow 1200mV 85C Model Recovery 'e_txc'
+Slack : -1.438
+TNS   : -93.823
+
+Type  : Slow 1200mV 85C Model Recovery 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : -1.423
+TNS   : -11.384
+
+Type  : Slow 1200mV 85C Model Recovery 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : -0.922
+TNS   : -29.262
+
+Type  : Slow 1200mV 85C Model Recovery 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : -0.641
+TNS   : -5.128
+
+Type  : Slow 1200mV 85C Model Recovery 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : -0.349
+TNS   : -2.094
+
+Type  : Slow 1200mV 85C Model Recovery 'CLK50m'
+Slack : 11.256
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : -0.032
+TNS   : -0.256
+
+Type  : Slow 1200mV 85C Model Removal 'e_rxc'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : 0.533
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : 0.708
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'e_txc'
+Slack : 0.882
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.994
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : 1.215
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : 1.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.511
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : 2.266
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SWCLK'
+Slack : 2.889
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CLK50m'
+Slack : 4.261
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : 4.936
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.713
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'e_rxc'
+Slack : -3.201
+TNS   : -1681.881
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'e_txc'
+Slack : -3.201
+TNS   : -462.766
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SWCLK'
+Slack : -3.000
+TNS   : -303.384
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : -1.487
+TNS   : -47.584
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : -1.487
+TNS   : -29.740
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : -1.487
+TNS   : -23.792
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : -1.487
+TNS   : -12.216
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|Send_Task'
+Slack : 0.369
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tx_cnt[0]'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.818
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 7.889
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK50m'
+Slack : 9.683
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.677
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'CLK50m'
+Slack : -35.236
+TNS   : -35334.736
+
+Type  : Slow 1200mV 0C Model Setup 'e_txc'
+Slack : -26.029
+TNS   : -1811.747
+
+Type  : Slow 1200mV 0C Model Setup 'e_rxc'
+Slack : -6.860
+TNS   : -3416.925
+
+Type  : Slow 1200mV 0C Model Setup 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -5.088
+TNS   : -13634.179
+
+Type  : Slow 1200mV 0C Model Setup 'SWCLK'
+Slack : -5.067
+TNS   : -677.686
+
+Type  : Slow 1200mV 0C Model Setup 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -5.063
+TNS   : -15.530
+
+Type  : Slow 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|Send_Task'
+Slack : -4.371
+TNS   : -164.382
+
+Type  : Slow 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : -4.263
+TNS   : -28.475
+
+Type  : Slow 1200mV 0C Model Setup 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -4.215
+TNS   : -4.215
+
+Type  : Slow 1200mV 0C Model Setup 'tx_cnt[0]'
+Slack : -3.726
+TNS   : -24.030
+
+Type  : Slow 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : -3.134
+TNS   : -72.562
+
+Type  : Slow 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : -2.959
+TNS   : -47.344
+
+Type  : Slow 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : -2.459
+TNS   : -14.754
+
+Type  : Slow 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : -1.987
+TNS   : -27.355
+
+Type  : Slow 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : -1.649
+TNS   : -13.192
+
+Type  : Slow 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : -1.085
+TNS   : -6.588
+
+Type  : Slow 1200mV 0C Model Hold 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.935
+TNS   : -0.935
+
+Type  : Slow 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|Send_Task'
+Slack : -0.357
+TNS   : -1.986
+
+Type  : Slow 1200mV 0C Model Hold 'CLK50m'
+Slack : -0.340
+TNS   : -0.653
+
+Type  : Slow 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : -0.140
+TNS   : -1.120
+
+Type  : Slow 1200mV 0C Model Hold 'SWCLK'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'e_rxc'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'e_txc'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : 0.620
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : 0.702
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tx_cnt[0]'
+Slack : 0.733
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : 1.317
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -7.221
+TNS   : -1981.079
+
+Type  : Slow 1200mV 0C Model Recovery 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -6.398
+TNS   : -2362.346
+
+Type  : Slow 1200mV 0C Model Recovery 'e_rxc'
+Slack : -5.071
+TNS   : -895.726
+
+Type  : Slow 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : -4.355
+TNS   : -69.680
+
+Type  : Slow 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : -4.183
+TNS   : -27.257
+
+Type  : Slow 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : -3.642
+TNS   : -67.020
+
+Type  : Slow 1200mV 0C Model Recovery 'SWCLK'
+Slack : -3.181
+TNS   : -429.614
+
+Type  : Slow 1200mV 0C Model Recovery 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.794
+TNS   : -122.814
+
+Type  : Slow 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : -1.411
+TNS   : -11.288
+
+Type  : Slow 1200mV 0C Model Recovery 'e_txc'
+Slack : -1.317
+TNS   : -81.459
+
+Type  : Slow 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : -0.813
+TNS   : -25.841
+
+Type  : Slow 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : -0.580
+TNS   : -4.640
+
+Type  : Slow 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : -0.238
+TNS   : -1.428
+
+Type  : Slow 1200mV 0C Model Recovery 'CLK50m'
+Slack : 11.792
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : -0.262
+TNS   : -2.096
+
+Type  : Slow 1200mV 0C Model Removal 'e_rxc'
+Slack : 0.130
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : 0.593
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'e_txc'
+Slack : 0.752
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.897
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : 1.201
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : 1.293
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.334
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : 2.038
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SWCLK'
+Slack : 2.564
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CLK50m'
+Slack : 3.829
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : 4.481
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 5.937
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'e_rxc'
+Slack : -3.201
+TNS   : -1734.965
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'e_txc'
+Slack : -3.201
+TNS   : -462.766
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SWCLK'
+Slack : -3.000
+TNS   : -316.260
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : -1.487
+TNS   : -48.330
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : -1.487
+TNS   : -29.740
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : -1.487
+TNS   : -23.792
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : -1.487
+TNS   : -14.412
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tx_cnt[0]'
+Slack : 0.217
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|Send_Task'
+Slack : 0.228
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.801
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 7.911
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK50m'
+Slack : 9.604
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.684
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'e_txc'
+Slack : -11.226
+TNS   : -689.675
+
+Type  : Fast 1200mV 0C Model Setup 'CLK50m'
+Slack : -5.967
+TNS   : -452.611
+
+Type  : Fast 1200mV 0C Model Setup 'e_rxc'
+Slack : -2.491
+TNS   : -1083.849
+
+Type  : Fast 1200mV 0C Model Setup 'SWCLK'
+Slack : -1.846
+TNS   : -203.799
+
+Type  : Fast 1200mV 0C Model Setup 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -1.845
+TNS   : -5.732
+
+Type  : Fast 1200mV 0C Model Setup 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.628
+TNS   : -1.628
+
+Type  : Fast 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : -1.579
+TNS   : -10.163
+
+Type  : Fast 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|Send_Task'
+Slack : -1.482
+TNS   : -20.136
+
+Type  : Fast 1200mV 0C Model Setup 'tx_cnt[0]'
+Slack : -1.304
+TNS   : -8.316
+
+Type  : Fast 1200mV 0C Model Setup 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.056
+TNS   : -1420.049
+
+Type  : Fast 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : -1.035
+TNS   : -17.807
+
+Type  : Fast 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : -0.890
+TNS   : -14.240
+
+Type  : Fast 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : -0.459
+TNS   : -3.328
+
+Type  : Fast 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : -0.449
+TNS   : -2.694
+
+Type  : Fast 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : -0.342
+TNS   : -2.736
+
+Type  : Fast 1200mV 0C Model Setup 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : -0.018
+TNS   : -0.018
+
+Type  : Fast 1200mV 0C Model Hold 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.342
+TNS   : -0.342
+
+Type  : Fast 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|Send_Task'
+Slack : -0.113
+TNS   : -0.337
+
+Type  : Fast 1200mV 0C Model Hold 'CLK50m'
+Slack : -0.092
+TNS   : -0.390
+
+Type  : Fast 1200mV 0C Model Hold 'e_rxc'
+Slack : 0.117
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.127
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'e_txc'
+Slack : 0.132
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : 0.196
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SWCLK'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tx_cnt[0]'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -3.482
+TNS   : -863.109
+
+Type  : Fast 1200mV 0C Model Recovery 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.657
+TNS   : -765.893
+
+Type  : Fast 1200mV 0C Model Recovery 'e_rxc'
+Slack : -2.067
+TNS   : -361.785
+
+Type  : Fast 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : -1.774
+TNS   : -28.384
+
+Type  : Fast 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : -1.726
+TNS   : -10.304
+
+Type  : Fast 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : -1.433
+TNS   : -26.030
+
+Type  : Fast 1200mV 0C Model Recovery 'SWCLK'
+Slack : -1.106
+TNS   : -140.626
+
+Type  : Fast 1200mV 0C Model Recovery 'e_txc'
+Slack : -0.849
+TNS   : -25.612
+
+Type  : Fast 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : -0.259
+TNS   : -2.072
+
+Type  : Fast 1200mV 0C Model Recovery 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.023
+TNS   : -0.161
+
+Type  : Fast 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : 0.064
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CLK50m'
+Slack : 15.833
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'e_txc'
+Slack : 0.106
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'e_rxc'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.221
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : 0.289
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : 0.580
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.652
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : 0.655
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : 0.954
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SWCLK'
+Slack : 1.377
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CLK50m'
+Slack : 1.968
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : 2.240
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.161
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'e_rxc'
+Slack : -3.000
+TNS   : -1083.443
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'e_txc'
+Slack : -3.000
+TNS   : -312.871
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SWCLK'
+Slack : -3.000
+TNS   : -233.823
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_o_valid'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|frequency_counter:frequency_counter_inst|input_low'
+Slack : -1.000
+TNS   : -20.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|wire_2Hz'
+Slack : -1.000
+TNS   : -16.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|SMC:SMC_inst|clk_1M'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|jpeg_core:jpeg_core_inst|jpeg_output:u_jpeg_output|pixel_x_q[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|sdram_top:sdram_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_dqm_reg[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|iprecieve:iprecieve_inst|data_receive'
+Slack : -1.000
+TNS   : -6.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SmartCamera:SmartCamera_inst|TCP:TCP_inst|Send_Task'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tx_cnt[0]'
+Slack : 0.338
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.918
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SmartCamera_inst|u_pll_clk|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 8.079
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK50m'
+Slack : 9.375
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SmartCamera_inst|video_pll_m0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.754
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,10 @@
+.\objects\oled_display.o: src\OLED_display.c
+.\objects\oled_display.o: src\CortexM3.h
+.\objects\oled_display.o: H:\software\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\oled_display.o: src\core_cm3.h
+.\objects\oled_display.o: src\core_cmInstr.h
+.\objects\oled_display.o: src\core_cmFunc.h
+.\objects\oled_display.o: src\IIC_driver.h
+.\objects\oled_display.o: src\GPIO.h
+.\objects\oled_display.o: src\core_cm3.h
+.\objects\oled_display.o: src\OLED_display.h

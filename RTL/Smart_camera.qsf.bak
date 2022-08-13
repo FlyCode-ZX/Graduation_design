@@ -1,0 +1,119 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+# Date created = 13:06:56  July 23, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Smart_camera_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE55F23C8
+set_global_assignment -name TOP_LEVEL_ENTITY Smart_camera
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:06:56  JULY 23, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/SmartCamera.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/frequency_counter.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/fre_meter.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/VIP/VIP_RGB888_YCbCr444.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/VIP/VIP_Matrix_Generate_9X9_1Bit.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/VIP/VIP_Matrix_Generate_3X3_1Bit.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/VIP/VIP_Bit_Erosion_Detector.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/VIP/VIP_Bit_Dilation_Detector.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/VIP/position.v
+set_global_assignment -name QIP_FILE src/sources/peripheral/webcamera/VIP/ip/Line_Shift_RAM_9_1Bit.qip
+set_global_assignment -name QIP_FILE src/sources/peripheral/webcamera/VIP/ip/Line_Shift_RAM_1Bit.qip
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/VGA/vga_driver.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/UART/uart_tx.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/UART/uart_rx.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/sdram/sdram_top.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/sdram/sdram_para.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/sdram/sdram_fifo_ctrl.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/sdram/sdram_data.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/sdram/sdram_ctrl.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/sdram/sdram_controller.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/sdram/sdram_cmd.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_output_y_ram.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_output_fifo.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_output_cx_ram.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_output.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_mcu_proc.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_mcu_id.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_input.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_idct_y.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_idct_x.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_idct_transpose_ram.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_idct_transpose.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_idct_ram_dp.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_idct_ram.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_idct_fifo.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_idct.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_dqt.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_dht_std_y_dc.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_dht_std_y_ac.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_dht_std_cx_dc.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_dht_std_cx_ac.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_dht.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_core.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/jpeg_core/jpeg_bitbuffer.v
+set_global_assignment -name QIP_FILE src/sources/peripheral/webcamera/IP/video_pll.qip
+set_global_assignment -name QIP_FILE src/sources/peripheral/webcamera/IP/ram.qip
+set_global_assignment -name QIP_FILE src/sources/peripheral/webcamera/IP/pll_clk.qip
+set_global_assignment -name QIP_FILE src/sources/peripheral/webcamera/IP/Eth_RX_FIFO.qip
+set_global_assignment -name QIP_FILE src/sources/peripheral/webcamera/IP/afifo_40_1024.qip
+set_global_assignment -name QIP_FILE src/sources/peripheral/webcamera/IP/afifo_16_1024.qip
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/Ethernet/TCP.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/Ethernet/SMC.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/Ethernet/ipsend.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/Ethernet/iprecieve.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/Ethernet/crc.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/box/CH9350.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/webcamera/box/box.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/cmsdk_fpga_sram.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/cmsdk_apb_uart.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/cmsdk_ahb_to_sram.v
+set_global_assignment -name VERILOG_FILE src/sources/peripheral/cmsdk_ahb_default_slave.v
+set_global_assignment -name VERILOG_FILE src/sources/new/cmsdk_iop_gpio.v
+set_global_assignment -name VERILOG_FILE src/sources/new/cmsdk_ahb_to_iop.v
+set_global_assignment -name VERILOG_FILE src/sources/new/cmsdk_ahb_gpio.v
+set_global_assignment -name VERILOG_FILE src/sources/core/cortexm3ds_logic.v
+set_global_assignment -name VERILOG_FILE src/sources/bus/sys_apb/cmsdk_apb_slave_mux.v
+set_global_assignment -name VERILOG_FILE src/sources/bus/sys_apb/cmsdk_ahb_to_apb.v
+set_global_assignment -name VERILOG_FILE src/sources/CortexM3.v
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"

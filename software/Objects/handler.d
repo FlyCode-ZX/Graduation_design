@@ -1,0 +1,12 @@
+.\objects\handler.o: src\handler.c
+.\objects\handler.o: H:\software\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\handler.o: src\CortexM3.h
+.\objects\handler.o: H:\software\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\handler.o: src\core_cm3_int.h
+.\objects\handler.o: src\core_cm3.h
+.\objects\handler.o: src\core_cmInstr.h
+.\objects\handler.o: src\core_cmFunc.h
+.\objects\handler.o: src\delay.h
+.\objects\handler.o: src\GPIO.h
+.\objects\handler.o: src\core_cm3.h
+.\objects\handler.o: src\SmartCamera.h

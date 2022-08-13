@@ -1,0 +1,10 @@
+.\objects\iic_driver.o: src\IIC_driver.c
+.\objects\iic_driver.o: src\IIC_driver.h
+.\objects\iic_driver.o: src\CortexM3.h
+.\objects\iic_driver.o: H:\software\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\iic_driver.o: src\core_cm3.h
+.\objects\iic_driver.o: src\core_cmInstr.h
+.\objects\iic_driver.o: src\core_cmFunc.h
+.\objects\iic_driver.o: src\GPIO.h
+.\objects\iic_driver.o: src\core_cm3.h
+.\objects\iic_driver.o: src\delay.h

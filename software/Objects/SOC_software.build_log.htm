@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ZX ZX, ZX, LIC=47GU5-G8FAD-FWR2N-YBVAX-92MW4-J6LSK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.33.0.0
+Toolchain Path:  H:\software\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+F:\08-design\FPGA\Altera\EP4CE55\SOC\M3_SOC\bishe\software\SOC_software.uvprojx
+Project File Date:  05/22/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'H:\software\MDK\ARM\ARMCC\Bin'
+Rebuild target 'M3_software'
+compiling Retarget.c...
+src\Retarget.c(28): warning:  #223-D: function "uart_SendChar" declared implicitly
+    if(ch == '\n') uart_SendChar(UART,'\r');
+src\Retarget.c(35): warning:  #223-D: function "uart_ReceiveChar" declared implicitly
+    buf = uart_ReceiveChar(UART);
+src\Retarget.c(36): warning:  #223-D: function "uart_SendChar" declared implicitly
+    uart_SendChar(UART,buf);
+src\Retarget.c(49): warning:  #223-D: function "uart_SendChar" declared implicitly
+    uart_SendChar(UART,ch);
+src\Retarget.c: 4 warnings, 0 errors
+compiling CortexM3_driver.c...
+src\CortexM3_driver.c(201): warning:  #1-D: last line of file ends without a newline
+   }
+src\CortexM3_driver.c: 1 warning, 0 errors
+compiling handler.c...
+src\handler.c(67): warning:  #223-D: function "LCD_show_arrow" declared implicitly
+  			LCD_show_arrow(5,0,0);
+src\handler.c(71): warning:  #223-D: function "LCD_show_arrow" declared implicitly
+  			LCD_show_arrow(5,1,0);
+src\handler.c(75): warning:  #223-D: function "LCD_show_ui01" declared implicitly
+  				if(arrow==1)      LCD_show_ui01();
+src\handler.c(76): warning:  #223-D: function "LCD_show_ui02" declared implicitly
+  			  else if(arrow==2) LCD_show_ui02();
+src\handler.c(77): warning:  #223-D: function "LCD_show_ui03" declared implicitly
+  				else if(arrow==3) LCD_show_ui03();
+src\handler.c(85): warning:  #223-D: function "LCD_show_arrow" declared implicitly
+  			LCD_show_arrow(4,0,0);
+src\handler.c(89): warning:  #223-D: function "LCD_show_arrow" declared implicitly
+  			LCD_show_arrow(4,1,0);
+src\handler.c(93): warning:  #223-D: function "LCD_show_item" declared implicitly
+  				if(arrow == 4) LCD_show_item();
+src\handler.c(101): warning:  #223-D: function "LCD_show_arrow" declared implicitly
+  			LCD_show_arrow(5,0,0);
+src\handler.c(105): warning:  #223-D: function "LCD_show_arrow" declared implicitly
+  			LCD_show_arrow(5,1,0);
+src\handler.c(109): warning:  #223-D: function "LCD_show_item" declared implicitly
+  				if(arrow == 5) LCD_show_item();		
+src\handler.c(128): warning:  #223-D: function "LCD_show_sys_set" declared implicitly
+  				LCD_show_sys_set();
+src\handler.c(148): warning:  #223-D: function "LCD_show_sys_set" declared implicitly
+  				LCD_show_sys_set();
+src\handler.c: 13 warnings, 0 errors
+compiling main.c...
+src\main.c(22): warning:  #175-D: subscript out of range
+  	num[5] = '\0';
+src\main.c(82): warning:  #175-D: subscript out of range
+  			num[5] = '\0';
+src\main.c(91): warning:  #175-D: subscript out of range
+  			num[5] = '\0';
+src\main.c(114): warning:  #175-D: subscript out of range
+  			num[5] = '\0';
+src\main.c(123): warning:  #175-D: subscript out of range
+  			num[5] = '\0';
+src\main.c(132): warning:  #175-D: subscript out of range
+  			num[5] = '\0';
+src\main.c: 6 warnings, 0 errors
+assembling startup_CM3DS.s...
+compiling delay.c...
+compiling system.c...
+src\system.c(47): warning:  #223-D: function "uart_init" declared implicitly
+    uart_init ( UART, (SystemCoreClock / 115200), 1,1,1,1,1,1 );
+src\system.c: 1 warning, 0 errors
+compiling lcd.c...
+src\lcd.c(20): warning:  #223-D: function "GPIO_output" declared implicitly
+  		OLED_SCLK_Clr();
+src\lcd.c(38): warning:  #223-D: function "GPIO_output" declared implicitly
+  	OLED_DC_Set();//写数据
+src\lcd.c(50): warning:  #223-D: function "GPIO_output" declared implicitly
+  	OLED_DC_Set();//写数据
+src\lcd.c(64): warning:  #223-D: function "GPIO_output" declared implicitly
+  	OLED_DC_Clr();//写命令
+src\lcd.c(98): warning:  #223-D: function "GPIO_output" declared implicitly
+  	OLED_RST_Clr();
+src\lcd.c(335): warning:  #223-D: function "SmartCamera_get_info" declared implicitly
+  	value = SmartCamera_get_info(1);//Y+
+src\lcd.c: 6 warnings, 0 errors
+compiling GPIO.c...
+compiling SmartCamera.c...
+src\SmartCamera.c(36): warning:  #940-D: missing return statement at end of non-void function "SmartCamera_get_info" 
+  }
+src\SmartCamera.c: 1 warning, 0 errors
+compiling misc.c...
+src\misc.c(100): warning:  #1-D: last line of file ends without a newline
+  }
+src\misc.c: 1 warning, 0 errors
+linking...
+Program Size: Code=6920 RO-data=10184 RW-data=28 ZI-data=41060  
+After Build - User command #1: fromelf -cvf .\Objects\SOC_software.axf --vhx --32x1 -o image.hex
+After Build - User command #2: fromelf -cvf .\Objects\SOC_software.axf -o image.txt
+".\Objects\SOC_software.axf" - 0 Error(s), 33 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+
+<h2>Collection of Component include folders:</h2>
+  H:\software\MDK\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>

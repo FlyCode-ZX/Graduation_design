@@ -1,0 +1,137 @@
+To      ,  Location
+
+CLK50m  ,  PIN_T2
+RSTn    ,  PIN_W13
+
+SWCLK   ,  PIN_D2
+SWDIO   ,  PIN_C2
+
+TXD     ,  PIN_J1
+RXD     ,  PIN_J2
+CH9350_TXD ,PIN_M1
+CH9350_RXD ,PIN_N1
+BEEP    ,  PIN_C1
+
+L2_AHB_GPIO[0] ,  PIN_R1
+L2_AHB_GPIO[1] ,  PIN_P1
+
+L2_AHB_GPIO[2]  ,  PIN_AA13
+L2_AHB_GPIO[3]  ,  PIN_A10
+L2_AHB_GPIO[4]  ,  PIN_B10
+L2_AHB_GPIO[5]  ,  PIN_A9
+L2_AHB_GPIO[6]  ,  PIN_B9
+
+L2_AHB_GPIO[7]  ,  PIN_A8
+L2_AHB_GPIO[8]  ,  PIN_B8
+L2_AHB_GPIO[9]  ,  PIN_A7
+L2_AHB_GPIO[10] ,  PIN_B7
+L2_AHB_GPIO[11] ,  PIN_A6
+L2_AHB_GPIO[12] ,  PIN_M2
+L2_AHB_GPIO[13] ,  PIN_N2
+L2_AHB_GPIO[14] ,  PIN_P2
+L2_AHB_GPIO[15] ,  PIN_R2
+
+e_reset  ,  PIN_W21
+e_rxc    ,  PIN_R19                                  
+e_rxdv   ,	PIN_K21
+e_rxer   ,	PIN_R21					
+e_rxd[0] ,  PIN_K22
+e_rxd[1] ,  PIN_L21
+e_rxd[2] ,  PIN_L22
+e_rxd[3] ,  PIN_M21
+e_txc    ,  PIN_AB20                  
+e_gtxc   ,  PIN_U22                 
+e_txen   ,  PIN_V21
+e_txer   ,  PIN_AA18					
+e_txd[0] ,  PIN_V22
+e_txd[1] ,  PIN_W22
+e_txd[2] ,  PIN_Y21
+e_txd[3] ,  PIN_Y22
+
+vga_out_hs,   PIN_J21
+vga_out_vs,   PIN_J22
+vga_out_r[0],    PIN_M19
+vga_out_r[1],    PIN_N19
+vga_out_r[2],    PIN_M20
+vga_out_r[3],    PIN_B21
+vga_out_r[4],    PIN_N20
+
+vga_out_g[0],    PIN_B22
+vga_out_g[1],    PIN_C21
+vga_out_g[2],    PIN_D21
+vga_out_g[3],    PIN_C22
+vga_out_g[4],    PIN_E21
+vga_out_g[5],    PIN_D22
+
+vga_out_b[0],    PIN_E22
+vga_out_b[1],    PIN_F22
+vga_out_b[2],    PIN_F21
+vga_out_b[3],    PIN_H22
+vga_out_b[4],    PIN_H21
+
+
+seg_sel[0],  PIN_B5
+seg_sel[1],  PIN_B3
+seg_sel[2],  PIN_B6
+
+seg_data[0],  PIN_C4
+seg_data[1],  PIN_B2
+seg_data[2],  PIN_A3
+seg_data[3],  PIN_C3
+seg_data[4],  PIN_A5
+seg_data[5],  PIN_B4
+seg_data[6],  PIN_B1
+seg_data[7],  PIN_A4
+MDC     ,  PIN_AB17
+MDIO    ,  PIN_AA17
+
+sdram_clk,    PIN_Y6
+sdram_cke,    PIN_W6
+sdram_cs_n,   PIN_AA3
+sdram_we_n,   PIN_AB4
+sdram_cas_n,  PIN_AA4
+sdram_ras_n,  PIN_AB3
+sdram_dqm[0], PIN_AA5 
+sdram_dqm[1], PIN_W7    
+sdram_ba[0],  PIN_Y1
+sdram_ba[1],  PIN_W2     
+sdram_addr[0],PIN_V2 
+sdram_addr[1],PIN_V1
+sdram_addr[2],PIN_U2
+sdram_addr[3],PIN_U1
+sdram_addr[4],PIN_V3
+sdram_addr[5],PIN_V4
+sdram_addr[6],PIN_Y2
+sdram_addr[7],PIN_AA1
+sdram_addr[8],PIN_Y3
+sdram_addr[9],PIN_V5
+sdram_addr[10],PIN_W1
+sdram_addr[11],PIN_Y4
+sdram_addr[12],PIN_V6 
+
+sdram_dq[0]  ,  PIN_AA10
+sdram_dq[1]  ,  PIN_AB9    
+sdram_dq[2]  ,  PIN_AA9 
+sdram_dq[3]  ,  PIN_AB8 
+sdram_dq[4]  ,  PIN_AA8
+sdram_dq[5]  ,  PIN_AB7    
+sdram_dq[6]  ,  PIN_AA7 
+sdram_dq[7]  ,  PIN_AB5 
+sdram_dq[8]  ,  PIN_Y7 
+sdram_dq[9]  ,  PIN_W8    
+sdram_dq[10]  ,  PIN_Y8 
+sdram_dq[11]  ,  PIN_V9 
+sdram_dq[12]  ,  PIN_V10 
+sdram_dq[13]  ,  PIN_Y10    
+sdram_dq[14]  ,  PIN_W10 
+sdram_dq[15]  ,  PIN_V11
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at SmartCamera.v(796): always construct contains both blocking and non-blocking assignments File: F:/08-design/FPGA/Altera/EP4CE55/SOC/M3_SOC/bishe/RTL/src/sources/peripheral/webcamera/SmartCamera.v Line: 796
+Warning (10268): Verilog HDL information at CH9350.v(118): always construct contains both blocking and non-blocking assignments File: F:/08-design/FPGA/Altera/EP4CE55/SOC/M3_SOC/bishe/RTL/src/sources/peripheral/webcamera/box/CH9350.v Line: 118
+Warning (10268): Verilog HDL information at CH9350.v(130): always construct contains both blocking and non-blocking assignments File: F:/08-design/FPGA/Altera/EP4CE55/SOC/M3_SOC/bishe/RTL/src/sources/peripheral/webcamera/box/CH9350.v Line: 130

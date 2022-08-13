@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun May 22 11:47:42 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : Smart_camera
+Top-level Entity Name : CortexM3
+Family : Cyclone IV E
+Total logic elements : 39,073
+    Total combinational functions : 33,993
+    Dedicated logic registers : 12,557
+Total registers : 12557
+Total pins : 113
+Total virtual pins : 0
+Total memory bits : 1,695,980
+Embedded Multiplier 9-bit elements : 70
+Total PLLs : 2
